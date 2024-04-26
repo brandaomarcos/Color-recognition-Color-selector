@@ -1,0 +1,29 @@
+{
+    "name": "Color Program",
+    "description": "",
+    "dependencies": {
+        "core": "*",
+        "radio": "*",
+        "microphone": "*",
+        "servo": "*",
+        "ContinuousServo": "github:tinkertanker/pxt-continuous-servo#v0.0.6",
+        "Module-World": "github:YahboomTechnology/Module-World#4bad43a8128f8529d911b0033e7062d7972a5cf4",
+        "Module-Colour": "github:YahboomTechnology/Module-World-Color-en#b10ab54b3a2676ef0e49ef5d08e9a2cc1318bbfb"
+    },
+    "files": [
+        "main.blocks",
+        "main.ts",
+        "README.md"
+    ],
+    "testFiles": [
+        "test.ts"
+    ],
+    "targetVersions": {
+        "target": "6.0.26",
+        "targetId": "microbit"
+    },
+    "supportedTargets": [
+        "microbit"
+    ],
+    "preferredEditor": "blocksprj"
+}
